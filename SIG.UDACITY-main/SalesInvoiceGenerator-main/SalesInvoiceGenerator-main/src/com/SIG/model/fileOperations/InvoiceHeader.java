@@ -59,6 +59,11 @@ public class InvoiceHeader {
         return total;
     }
 
+    @Override
+    public String toString() {
+        return "Invoice{" + "num=" + num + ", date=" + date + ", customer=" + customer + '}';
+    }
+
     public String getAsCSV() {
         return num + "," + date + "," + customer;
     }

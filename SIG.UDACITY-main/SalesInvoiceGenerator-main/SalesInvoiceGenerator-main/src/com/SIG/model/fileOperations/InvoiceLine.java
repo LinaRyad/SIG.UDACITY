@@ -58,5 +58,7 @@ public class InvoiceLine {
     @Override
     public String toString() {
         return "invLine{" + "num=" + invoice.getNum() + ", itemName=" + itemName + ", itemPrice=" + itemPrice + ", count=" + count + '}';
+
     }
+
 }
